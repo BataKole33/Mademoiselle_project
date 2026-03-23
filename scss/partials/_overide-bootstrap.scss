@@ -3,3 +3,35 @@ html{
 }
 
 $font-size-base: 1.6rem;
+
+$grid-gutter-width: 2.4rem;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1140px //1320px
+);
+
+$h1-font-size: 6rem; //pf
+$h2-font-size: 4.4rem; //lat
+$h3-font-size: 3.6rem; //lat
+$h4-font-size: 3rem; //pf
+
+$pink: #ECD9D9;
+$gray: #F5F5F5;
+
+$body-color: #000;
+
+$navbar-light-color: #000;
+$navbar-light-hover-color: $pink;
+$navbar-light-active-color: $pink;
+
+$input-border-width:none;
+$input-placeholder-color: #000;
+// $input-font-weight: 300;
+// $input-line-height: 5rem;
+
+$headings-margin-bottom: 0;
+$paragraph-margin-bottom: 0;

@@ -1,3 +1,74 @@
-img{
+$body-font: $lato;
+$h1-h4-font: $playfair;
+$date-font: $playfair;
+$hl-color: $pink;
+img {
     max-width: 100%;
+}
+
+body {
+    line-height: 2.6rem;
+    font-weight: 300;
+    font-family: $body-font;
+}
+
+h1,
+.h1 {
+    line-height: 6.8rem;
+    font-weight: 500;
+    font-family: $h1-h4-font;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+}
+
+h2,
+.h2 {
+    line-height: 5.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3,
+.h3 {
+    line-height: 4.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h4,
+.h4 {
+    line-height: 4.6rem;
+    font-weight: 500;
+    font-family: $h1-h4-font;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+
+.date {
+    font-family: $date-font;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 4.6rem;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.news-title {
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.horizontal-line {
+    display: block;
+    width: 95px;
+    height: 2px;
+    background-color: $hl-color;
+    margin-top: 2.8rem;
+    margin-bottom: 4.6rem;
 }
