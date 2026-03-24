@@ -2,6 +2,7 @@ $body-font: $lato;
 $h1-h4-font: $playfair;
 $date-font: $playfair;
 $hl-color: $pink;
+
 img {
     max-width: 100%;
 }
@@ -70,4 +71,16 @@ h4,
     background-color: $hl-color;
     margin-top: 2.8rem;
     margin-bottom: 4.6rem;
+
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: 10%;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 1.6rem 3rem 1.5rem;
 }
