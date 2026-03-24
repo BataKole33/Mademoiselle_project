@@ -1,0 +1,43 @@
+.trends-section {
+    padding: 6.7rem 0 9.7rem;
+
+    .trends-section-article {
+        position: relative;
+
+        .trends-photo {
+            margin: 0;
+            position: relative;
+            z-index: 1;
+            ;
+            overflow: hidden;
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+
+            img {
+                width: 100%;
+                display: block;
+                transition: 0.3s linear;
+            }
+        }
+    }
+
+    .trends-info {
+        margin: -7.7rem 2.7rem 0;
+        padding: 0.6rem 2.5rem 3rem;
+        background-color: white;
+        position: relative;
+        z-index: 2;
+
+        a {
+            text-decoration: none;
+            color: #000;
+
+            &:hover {
+                color: $pink;
+            }
+        }
+    }
+}

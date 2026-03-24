@@ -12282,4 +12282,39 @@ header .navbar-nav .nav-item .nav-link {
 
 .start-section {
   padding: 25.2rem 0 25.2rem;
+}
+
+.trends-section {
+  padding: 6.7rem 0 9.7rem;
+}
+.trends-section .trends-section-article {
+  position: relative;
+}
+.trends-section .trends-section-article .trends-photo {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.trends-section .trends-section-article .trends-photo:hover img {
+  transform: scale(1.1);
+}
+.trends-section .trends-section-article .trends-photo img {
+  width: 100%;
+  display: block;
+  transition: 0.3s linear;
+}
+.trends-section .trends-info {
+  margin: -7.7rem 2.7rem 0;
+  padding: 0.6rem 2.5rem 3rem;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+.trends-section .trends-info a {
+  text-decoration: none;
+  color: #000;
+}
+.trends-section .trends-info a:hover {
+  color: #ECD9D9;
 }/*# sourceMappingURL=theme.css.map */
