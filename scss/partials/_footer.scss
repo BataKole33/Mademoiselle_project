@@ -1,0 +1,29 @@
+$socials-color: $pink;
+
+footer {
+    padding: 3.8rem 0;
+    .social {
+        margin-bottom: 1.6rem;
+
+        a {
+            text-decoration: none;
+            font-size: 2.1rem;
+            color: $socials-color;
+            padding: 0 1.5rem;
+            transition: 0.3s linear;
+
+            &:hover {
+                transform: scale(1.6);
+                color: black;
+            }
+        }
+    }
+
+    .copyright {
+        
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        color: #586C88;
+    }
+}

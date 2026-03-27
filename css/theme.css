@@ -12372,7 +12372,7 @@ header .navbar-nav .nav-item .nav-link {
 }
 
 .professionals-section {
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
 }
 .professionals-section .professionals-carousel {
   position: relative;
@@ -12403,4 +12403,28 @@ header .navbar-nav .nav-item .nav-link {
 }
 .professionals-section .professionals-carousel .owl-dots .owl-dot.active span {
   opacity: 100%;
+}
+
+footer {
+  padding: 3.8rem 0;
+}
+footer .social {
+  margin-bottom: 1.6rem;
+}
+footer .social a {
+  text-decoration: none;
+  font-size: 2.1rem;
+  color: #ECD9D9;
+  padding: 0 1.5rem;
+  transition: 0.3s linear;
+}
+footer .social a:hover {
+  transform: scale(1.6);
+  color: black;
+}
+footer .copyright {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  color: #586C88;
 }/*# sourceMappingURL=theme.css.map */
