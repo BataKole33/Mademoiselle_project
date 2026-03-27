@@ -61,6 +61,13 @@ $(document).ready(function(){
             }
         });
     }
+
+    if ($(".professionals-carousel").length > 0) {
+        $(".professionals-carousel").owlCarousel({
+            items: 1,
+            
+        });
+    }
     
     
 });

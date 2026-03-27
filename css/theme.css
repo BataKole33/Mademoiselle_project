@@ -12330,6 +12330,9 @@ header .navbar-nav .nav-item .nav-link {
   color: #ECD9D9;
 }
 
+.services-section {
+  margin-bottom: 12.7rem;
+}
 .services-section .services-section-content .services-section-info {
   padding: 16.2rem 8.3rem 16.2rem 7.1rem;
   flex: 0 0 100%;
@@ -12366,4 +12369,38 @@ header .navbar-nav .nav-item .nav-link {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.professionals-section {
+  margin-bottom: 8rem;
+}
+.professionals-section .professionals-carousel {
+  position: relative;
+}
+.professionals-section .professionals-carousel .professional-item {
+  border: 2px solid #ECD9D9;
+  margin: 1rem;
+  padding: 8.7rem 2rem;
+}
+.professionals-section .professionals-carousel .owl-dots {
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (min-width: 1200px) {
+  .professionals-section .professionals-carousel .owl-dots {
+    bottom: 8.7rem;
+    left: 52%;
+    transform: translateX(0%);
+  }
+}
+.professionals-section .professionals-carousel .owl-dots .owl-dot span {
+  background-color: #D0B6B6;
+  opacity: 40%;
+  width: 1.84rem;
+  height: 0.6rem;
+}
+.professionals-section .professionals-carousel .owl-dots .owl-dot.active span {
+  opacity: 100%;
 }/*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,46 @@
+.professionals-section {
+    margin-bottom: 8rem;
+    .professionals-carousel {
+
+        position: relative;
+
+        .professional-item {
+            border: 2px solid $pink;
+            margin: 1rem;
+            padding: 8.7rem 2rem;
+        }
+
+        .owl-dots {
+            position: absolute;
+
+            bottom: 5rem;
+            left: 50%;
+            transform: translateX(-50%);
+
+            @media (min-width:1200px) {
+                bottom: 8.7rem;
+                left: 52%;
+                transform: translateX(0%);
+                
+                
+            }
+
+
+            .owl-dot {
+                span {
+                    background-color: #D0B6B6;
+                    opacity: 40%;
+                    width: 1.84rem;
+                    height: 0.6rem;
+                }
+
+                &.active {
+                    span {
+                        opacity: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}
