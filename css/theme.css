@@ -795,7 +795,7 @@ progress {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 @media (min-width: 1200px) {
@@ -12330,27 +12330,40 @@ header .navbar-nav .nav-item .nav-link {
   color: #ECD9D9;
 }
 
-.services-section .service-info-1 {
+.services-section .services-section-content .services-section-info {
   padding: 16.2rem 8.3rem 16.2rem 7.1rem;
-  height: 100%;
+  flex: 0 0 100%;
+}
+@media (min-width: 992px) {
+  .services-section .services-section-content .services-section-info {
+    padding: 6rem 4rem 6rem 3rem;
+    flex: 0 0 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .services-section .services-section-content .services-section-info {
+    padding: 16.2rem 8.3rem 16.2rem 7.1rem;
+  }
+}
+.services-section .services-section-content .services-section-info.odd {
   background-color: #F5F5F5;
 }
-.services-section .service-info-1 .service-info-title {
-  margin-bottom: 4.2rem;
-}
-.services-section .service-info-2 {
-  padding: 16.2rem 8.3rem 16.2rem 7.1rem;
-  height: 100%;
+.services-section .services-section-content .services-section-info.even {
   background-color: #ECD9D9;
 }
-.services-section .service-info-2 .service-info-title {
+.services-section .services-section-content .services-section-info .services-section-title {
   margin-bottom: 4.2rem;
 }
-.services-section .service-photo figure {
-  margin: 0;
+.services-section .services-section-content .services-section-photo {
+  flex: 0 0 100%;
 }
-.services-section .service-photo figure img {
-  width: 100%;
+@media (min-width: 992px) {
+  .services-section .services-section-content .services-section-photo {
+    flex: 0 0 50%;
+  }
+}
+.services-section .services-section-content .services-section-photo img {
   height: 100%;
+  width: 100%;
   display: block;
 }/*# sourceMappingURL=theme.css.map */
