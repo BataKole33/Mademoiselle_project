@@ -12427,4 +12427,12 @@ footer .copyright {
   font-size: 1.2rem;
   line-height: 2.5rem;
   color: #586C88;
+}
+
+.start-section.solo {
+  margin-bottom: 9.7rem;
+}
+
+.services-section.solo {
+  margin-bottom: 7.2rem;
 }/*# sourceMappingURL=theme.css.map */
