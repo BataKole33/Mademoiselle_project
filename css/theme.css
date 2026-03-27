@@ -12435,4 +12435,24 @@ footer .copyright {
 
 .services-section.solo {
   margin-bottom: 7.2rem;
+}
+
+header.single-services {
+  margin-bottom: 4.9rem;
+}
+
+.services-description-section {
+  margin-bottom: 15.9rem;
+}
+.services-description-section .services-description-photo {
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0;
+}
+.services-description-section .services-description-photo img {
+  width: 100%;
+  display: block;
+}
+.services-description-section .services-description-text .services-description-title {
+  margin-bottom: 4.6rem;
 }/*# sourceMappingURL=theme.css.map */
