@@ -1,0 +1,54 @@
+$default-input-bg: $gray;
+$default-contact-info-bg: $pink;
+
+.contact-section {
+    margin-top: 10.8rem;
+    margin-bottom: 10.1rem;
+
+    .contact-title {
+        margin-bottom: 3.4rem;
+    }
+
+    .contact-form {
+        .form-group {
+            margin-bottom: 1.4rem;
+
+            &:nth-of-type(4) {
+                margin-bottom: 2.2rem;
+            }
+
+            .form-control {
+                background-color: $default-input-bg;
+                padding: 1.1rem 2rem;
+                font-weight: 300;
+                font-size: 1.4rem;
+                line-height: 2.8rem;
+            }
+        }
+    }
+
+    .contact-map {
+        iframe {
+            width: 100%;
+            height: 509px;
+        }
+    }
+}
+
+.contact-info {
+    background-color: $default-contact-info-bg;
+    padding: 7.4rem 0;
+    margin-bottom: 5rem;
+    .contact-info-box {
+        a {
+            padding: 1rem 0;
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            letter-spacing: 10%;
+            text-transform: uppercase;
+        }
+    }
+}

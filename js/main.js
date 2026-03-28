@@ -1,7 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function () {
     //ANIMATION
     function animation() {
-        let  windowHeight = $(window).height();
+        let windowHeight = $(window).height();
         let scroll = $(window).scrollTop();
         $('.animation').each(function () {
             let position = $(this).offset().top;
@@ -20,7 +20,7 @@ $(document).ready(function(){
         animation();
     });
     animation();
-    
+
     //validate form
 
     if ($('.contact-form').length > 0) {
@@ -32,32 +32,38 @@ $(document).ready(function(){
                 $(element).addClass('is-valid').removeClass('is-invalid');
             },
             rules: {
-                name: {
+                contact_name: {
                     required: true
                 },
-                email: {
+                contact_email: {
                     required: true,
                     email: true
                 },
-                message: {
+                contact_subject: {
+                    required: true
+                },
+                contact_message: {
                     required: true
                 }
             },
             messages: {
-                name: {
+                contact_name: {
                     required: 'The Name* field is required'
                 },
-                email: {
+                contact_email: {
                     required: 'The Email* field is required',
                     email: 'Please provide a valid email address'
                 },
-                message: {
+                contact_subject: {
+                    required: "Please enter Subject"
+                },
+                contact_message: {
                     required: 'The Message* field is required'
                 }
             },
             errorElement: 'p',
             errorPlacement: function (error, element) {
-                error.appendTo(element.closest(".form-group").find(".error-msg"));
+                error.appendTo(element.closest(".form-group").find(".invalid-feedback"));
             }
         });
     }
@@ -65,10 +71,10 @@ $(document).ready(function(){
     if ($(".professionals-carousel").length > 0) {
         $(".professionals-carousel").owlCarousel({
             items: 1,
-            
+
         });
     }
-    
-    
+
+
 });
 
