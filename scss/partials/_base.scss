@@ -84,3 +84,23 @@ h4,
     border-radius: 0;
     padding: 1.6rem 3rem 1.5rem;
 }
+
+.pagination{
+    padding: 8rem 0;
+    .page-item{
+        
+        .page-link{
+            padding: 0 1.5rem;
+            font-size: 2rem;
+            line-height: 4.6rem;
+            letter-spacing: 10%;
+            border: none;
+            color:black;
+
+            &.active{
+                background-color: transparent;
+                font-weight: 700;
+            }
+        }
+    }
+}

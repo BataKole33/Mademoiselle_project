@@ -12245,6 +12245,22 @@ h4,
   padding: 1.6rem 3rem 1.5rem;
 }
 
+.pagination {
+  padding: 8rem 0;
+}
+.pagination .page-item .page-link {
+  padding: 0 1.5rem;
+  font-size: 2rem;
+  line-height: 4.6rem;
+  letter-spacing: 10%;
+  border: none;
+  color: black;
+}
+.pagination .page-item .page-link.active {
+  background-color: transparent;
+  font-weight: 700;
+}
+
 header {
   padding: 3.2rem 0 3.3rem;
   align-content: center;
@@ -12292,6 +12308,7 @@ header .navbar-nav .nav-item .nav-link {
 }
 
 .start-section {
+  height: 64rem;
   padding: 25.2rem 0 25.2rem;
 }
 
