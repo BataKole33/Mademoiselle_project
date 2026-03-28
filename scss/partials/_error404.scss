@@ -1,0 +1,13 @@
+.start-section-title-error {
+    margin-bottom: 5.9rem;
+}
+
+.back-to-home {
+    color: white;
+    border: 1px solid white;
+
+    &:hover {
+        color: $pink;
+        border: 1px solid $pink;
+    }
+}

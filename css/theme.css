@@ -12647,4 +12647,17 @@ header.single-services {
 }
 .about-section .about-section-aside .trends-section-article .trends-info a:hover {
   color: #ECD9D9;
+}
+
+.start-section-title-error {
+  margin-bottom: 5.9rem;
+}
+
+.back-to-home {
+  color: white;
+  border: 1px solid white;
+}
+.back-to-home:hover {
+  color: #ECD9D9;
+  border: 1px solid #ECD9D9;
 }/*# sourceMappingURL=theme.css.map */
