@@ -12470,6 +12470,71 @@ header.single-services {
   width: 100%;
   display: block;
 }
+.services-description-section .services-description-text {
+  font-size: 1.8rem;
+}
 .services-description-section .services-description-text .services-description-title {
   margin-bottom: 4.6rem;
+}
+
+.blog-description-section {
+  margin-bottom: 10.4rem;
+}
+.blog-description-section .blog-description-photo {
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0;
+}
+.blog-description-section .blog-description-photo img {
+  width: 100%;
+  display: block;
+}
+.blog-description-section .blog-description-text {
+  font-size: 1.8rem;
+}
+.blog-description-section .blog-description-text .services-description-title {
+  margin-bottom: 4.6rem;
+}
+.blog-description-section .blog-description-text .category-date {
+  font-size: 1.4rem;
+  line-height: 4.6rem;
+}
+.blog-description-section .blog-description-text .category-date span {
+  padding-right: 1.2rem;
+}
+.blog-description-section .blog-description-text .category-date .blog-category {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.blog-text-section {
+  margin-bottom: 15rem;
+}
+.blog-text-section p {
+  margin-bottom: 4.7rem;
+}
+.blog-text-section figure {
+  margin-bottom: 4.7rem;
+}
+.blog-text-section figure img {
+  width: 100%;
+  display: block;
+}
+.blog-text-section .tags-group {
+  font-weight: 500;
+}
+.blog-text-section .tags-group .tags-title {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  line-height: 4.6rem;
+}
+.blog-text-section .tags-group .tag-item {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 2.4rem;
+  letter-spacing: 10%;
+  background-color: #F5F5F5;
+  padding: 0.7rem 2rem;
+  margin-right: 1.2rem;
 }/*# sourceMappingURL=theme.css.map */
