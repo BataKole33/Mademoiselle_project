@@ -12578,4 +12578,73 @@ header.single-services {
   line-height: 2.4rem;
   letter-spacing: 10%;
   text-transform: uppercase;
+}
+
+.about-section .about-section-text .about-section-title {
+  margin-bottom: 1.9rem;
+}
+.about-section .about-section-text p {
+  margin-bottom: 2.9rem;
+}
+.about-section .about-section-text figure {
+  margin-bottom: 4.8rem;
+}
+.about-section .about-section-text figure img {
+  width: 100%;
+  display: block;
+}
+.about-section .about-section-aside .search-wrapper {
+  position: relative;
+}
+.about-section .about-section-aside .search-wrapper .about-search {
+  margin-bottom: 3.8rem;
+  border: 1px solid black;
+  padding: 1.5rem 2rem;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  letter-spacing: 10%;
+}
+.about-section .about-section-aside .search-wrapper .about-search::placeholder {
+  color: #000;
+  opacity: 100;
+}
+.about-section .about-section-aside .search-wrapper span.fa-solid {
+  text-decoration: none;
+  font-size: 2rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+}
+.about-section .about-section-aside .trends-section-article {
+  position: relative;
+}
+.about-section .about-section-aside .trends-section-article .trends-photo {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.about-section .about-section-aside .trends-section-article .trends-photo:hover img {
+  transform: scale(1.1);
+}
+.about-section .about-section-aside .trends-section-article .trends-photo img {
+  width: 100%;
+  display: block;
+  transition: 0.3s linear;
+}
+.about-section .about-section-aside .trends-section-article .trends-info {
+  margin: -7.7rem 2.7rem 0;
+  padding: 0.6rem 2.5rem 3rem;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+.about-section .about-section-aside .trends-section-article .trends-info a {
+  text-decoration: none;
+  color: #000;
+}
+.about-section .about-section-aside .trends-section-article .trends-info a:hover {
+  color: #ECD9D9;
 }/*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,91 @@
+.about-section {
+    .about-section-text {
+        .about-section-title {
+            margin-bottom: 1.9rem;
+        }
+
+        p {
+            margin-bottom: 2.9rem;
+        }
+
+        figure {
+            margin-bottom: 4.8rem;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+
+    .about-section-aside {
+        .search-wrapper {
+            position: relative;
+
+            .about-search {
+                margin-bottom: 3.8rem;
+                border: 1px solid black;
+                padding: 1.5rem 2rem;
+                font-family: $playfair;
+                font-style: italic;
+                letter-spacing: 10%;
+
+                &::placeholder {
+                    color: #000;
+                    opacity: 100;
+                }
+            }
+
+            span.fa-solid {
+                text-decoration: none;
+                font-size: 2rem;
+                position: absolute;
+                right: 1.5rem;
+                top: 50%;
+                transform: translateY(-50%);
+                color: black
+            }
+        }
+
+        .trends-section-article {
+            position: relative;
+
+            .trends-photo {
+                margin: 0;
+                position: relative;
+                z-index: 1;
+                ;
+                overflow: hidden;
+
+                &:hover {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    display: block;
+                    transition: 0.3s linear;
+                }
+            }
+
+            .trends-info {
+                margin: -7.7rem 2.7rem 0;
+                padding: 0.6rem 2.5rem 3rem;
+                background-color: white;
+                position: relative;
+                z-index: 2;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+
+                    &:hover {
+                        color: $pink;
+                    }
+                }
+            }
+        }
+    }
+}
